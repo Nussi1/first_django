@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% for d in data %}
+<h3> Name {{d.name}}  </h3>
+<h3> Age {{d.age}}  </h3>
+<img src="{{d.image.url}}">
+<h3> Дата {{d.created}}  </h3>
+
+{% endfor %}
+
+</body>
+</html>
